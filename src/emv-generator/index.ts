@@ -64,10 +64,11 @@ class Emv {
     const addFieldSize = this.formatNum(4 + id.length);
     const idSize = this.formatNum(id.length);
     const price = this.formatPrice(this.price);
+    const priceSize = this.formatNum(price.length) || "";
 
     const pixGenerated = `00020126${merchantAccountSize}${centralBank}01${pixKeySize}${
       this.pixKey
-    }520400005303986${price}5802BR59${nameKeySize}${this.formatText(
+    }520400005303986${priceSize}${price}5802BR59${nameKeySize}${this.formatText(
       this.name
     )}60${citySize}${this.formatText(
       this.city

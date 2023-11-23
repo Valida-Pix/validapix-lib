@@ -1,0 +1,28 @@
+{
+  "name": "validapix-test",
+  "version": "3.0.0",
+  "description": "Biblioteca oficial do ValidaPix",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/Valida-Pix/validapix-lib.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "validapix"
+  ],
+  "author": "Developer from ValidaPix <direct.josue@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valida-Pix/validapix-lib/issues"
+  },
+  "homepage": "https://github.com/Valida-Pix/validapix-lib"
+}

@@ -1,1 +1,1 @@
-export { hello } from "./emv-generator";
+export { emv } from "./emv-generator";

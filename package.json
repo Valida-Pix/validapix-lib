@@ -5,6 +5,10 @@
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
   "sideEffects": false,
+  "scripts": {
+    "start": "node dist/lib/es5/index.js",
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+github.com/Valida-Pix/validapix-lib.git"

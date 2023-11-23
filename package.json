@@ -1,6 +1,6 @@
 {
-  "name": "validapix-test",
-  "version": "4.0.3",
+  "name": "validapix",
+  "version": "1.0.1",
   "description": "Biblioteca oficial do ValidaPix",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
@@ -21,7 +21,8 @@
     "README.md"
   ],
   "keywords": [
-    "validapix"
+    "validapix",
+    "pix"
   ],
   "author": "Developer from ValidaPix <direct.josue@gmail.com>",
   "license": "ISC",

@@ -2,16 +2,16 @@
 
 Essa é a biblioteca oficial do <a href="https://validapix.tech" target="_blank">ValidaPix</a>. Aqui você encontra diversas ferramentas que pode te ajudar no dia adia de desenvolvimento envolvendo Pix e muito mais!
 
-## Gerador de EMV
+## Gerador de pix
 
-Para gerar uma string EMV você primeiramente precisa instalar o nosso pacote.
+Para gerar um pix (emv) você primeiramente precisa instalar o nosso pacote.
 
 <br />
 
 <strong>NPM:</strong>
 
 ```
-npm i validapix-test
+npm i validapix
 ```
 
 <strong>YARN:</strong>
@@ -22,9 +22,9 @@ Em breve
 Importe nosso pacote dentro da sua aplicação:
 
 ```Typescript
-import { emv } from "validapix-test";
+import { emv } from "validapix";
 
 emv.pixKey = "exemplo@gmail.com";
 emv.price = 150.99;
-emv.generate(); // retorna o emv
+emv.generate(); // retorna o famoso pix copia e cola (emv)
 ```

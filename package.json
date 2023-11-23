@@ -1,6 +1,6 @@
 {
   "name": "validapix-test",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Biblioteca oficial do ValidaPix",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",

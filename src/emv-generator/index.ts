@@ -7,10 +7,8 @@ class Emv {
 
   private formatPrice(price: number | string): string {
     price = String(price);
-
     if (!Number(price.replace(/\D/g, ""))) return "";
-    if (price.charAt(price.length - 2) === ".") return price;
-    return String(Number(price).toFixed(2));
+    return price;
   }
 
   private formatNum(num: number): number | string {
@@ -64,7 +62,7 @@ class Emv {
     const addFieldSize = this.formatNum(4 + id.length);
     const idSize = this.formatNum(id.length);
     const price = this.formatPrice(this.price);
-    const priceSize = this.formatNum(price.length) || "";
+    const priceSize = "54" + this.formatNum(price.length) || "";
 
     const pixGenerated = `00020126${merchantAccountSize}${centralBank}01${pixKeySize}${
       this.pixKey

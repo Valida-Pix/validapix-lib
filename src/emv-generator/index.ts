@@ -8,7 +8,7 @@ class Emv {
   private formatPrice(price: number | string): string {
     price = String(price);
 
-    if (!price.replace(/\D/g, "")) return "";
+    if (!Number(price.replace(/\D/g, ""))) return "";
     if (price.charAt(price.length - 2) === ".") return price;
     return String(Number(price).toFixed(2));
   }

@@ -7,8 +7,15 @@ class Emv {
 
   private formatPrice(price: number | string): string {
     price = String(price);
-    if (!Number(price.replace(/\D/g, ""))) return "";
-    return price;
+    if (price.includes(".")) return price;
+    price = price.replace(/\D/g, "");
+    if (!Number(price)) return "";
+
+    return (
+      String(price).slice(0, String(price).length - 2) +
+      "." +
+      String(price).slice(String(price).length - 2, String(price).length)
+    );
   }
 
   private formatNum(num: number): number | string {

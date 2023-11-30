@@ -1,13 +1,13 @@
 {
   "name": "validapix",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Biblioteca oficial do ValidaPix",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git+github.com/Valida-Pix/validapix-lib.git"
+    "url": "https://github.com/Valida-Pix/validapix-lib.git"
   },
   "files": [
     "lib",
@@ -25,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/Valida-Pix/validapix-lib/issues"
   },
-  "homepage": "https://github.com/Valida-Pix/validapix-lib/README.md"
+  "homepage": "https://gerarqrcodepix.validapix.tech/"
 }

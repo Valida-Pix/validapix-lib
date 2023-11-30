@@ -1,6 +1,5 @@
 {
   "name": "validapix",
-  "version": "1.0.7",
   "description": "Biblioteca oficial do ValidaPix",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",

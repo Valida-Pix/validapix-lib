@@ -1,12 +1,14 @@
 # Validapix - Biblioteca
 
-Essa é a biblioteca oficial do <a href="https://validapix.tech" target="_blank">ValidaPix</a>. Aqui você encontra diversas ferramentas que pode te ajudar no dia adia de desenvolvimento envolvendo Pix e muito mais!
+Essa é a biblioteca oficial do <a href="https://validapix.tech" target="_blank">ValidaPix</a>. Aqui você encontra diversas ferramentas que pode te ajudar no dia a dia de desenvolvimento envolvendo Pix e muito mais!
 
 ## Gerador de pix
 
-Para gerar um pix (emv) você primeiramente precisa instalar o nosso pacote.
+Se você precisa gerar um pix copia e cola, esse é o modulo correto.
 
 <br />
+
+### Instalação
 
 <strong>NPM:</strong>
 
@@ -28,7 +30,7 @@ pnpm add validapix
 
 <br />
 
-Importe nosso pacote dentro da sua aplicação:
+### Como usar
 
 ```Typescript
 import { emv } from "validapix";

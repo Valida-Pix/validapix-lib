@@ -1,6 +1,6 @@
 {
   "name": "validapix",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Biblioteca oficial do ValidaPix",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/Valida-Pix/validapix-lib/issues"
   },
-  "homepage": "https://github.com/Valida-Pix/validapix-lib",
+  "homepage": "https://github.com/Valida-Pix/validapix-lib/README.md",
   "devDependencies": {
     "typescript": "^5.3.2"
   }

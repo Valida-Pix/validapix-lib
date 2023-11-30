@@ -24,7 +24,7 @@ Importe nosso pacote dentro da sua aplicação:
 ```Typescript
 import { emv } from "validapix";
 
-emv.pixKey = "exemplo@gmail.com";
+emv.pixKey = "exemplo@exemplo.com";
 emv.price = 150.99;
 emv.generate(); // retorna o famoso pix copia e cola (emv)
 ```

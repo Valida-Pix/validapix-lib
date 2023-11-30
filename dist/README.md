@@ -14,6 +14,12 @@ Para gerar um pix (emv) você primeiramente precisa instalar o nosso pacote.
 npm i validapix
 ```
 
+<strong>YARN:</strong>
+
+```
+yarn add validapix
+```
+
 <strong>PNPM:</strong>
 
 ```

@@ -15,7 +15,16 @@ npm i validapix
 ```
 
 <strong>YARN:</strong>
-Em breve
+
+```
+yarn add validapix
+```
+
+<strong>PNPM:</strong>
+
+```
+pnpm add validapix
+```
 
 <br />
 
